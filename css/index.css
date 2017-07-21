@@ -1,0 +1,72 @@
+html {
+    font-size: 20px;
+}
+.page {
+    background-color:#f7f7f7;
+
+}
+.ppl_row {
+    height:9rem;
+    color:#3a3c4c;
+    font-size:0.8rem;
+    box-sizing:border-box;
+    overflow:hidden;
+    text-align:center;
+    position:relative;
+    padding:0.7rem 0.25rem;
+
+}
+.ppg_card_img img{
+    width: 17.25rem;
+    height: 9.2rem;
+    margin:0 auto;
+    z-index:0;
+    display:inline-block;
+}
+.ppg_menber_cardId {
+    position:absolute;
+    right:1.3rem;
+    top:1.15rem;
+    border-radius:0.25rem;
+    padding:0.05rem 0.25rem;
+    font-size:0.8rem;
+    background-color:rgba(255, 255, 255, 0.50);
+    line-height:1
+}
+.ppg_account_hd {
+    background:#fff;
+    height:2.75rem;
+    box-sizing:border-box;
+    box-shadow:0 1px 1px 0 rgba(0, 0, 0, 0.10);
+}
+.ppg_bounceInLeft {
+    background:#fff;
+    margin:0;
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-around;
+}
+.ppg_mypromotion {
+    text-align:center;
+    width:100%;
+    position:relative;
+}
+.ppg_fontRed {
+    margin-top:0.45rem;
+    margin-bottom:0.15rem;
+    font-size:0.8rem;
+    color:#ff5556;
+    font-weight:bold;
+}
+.ppg_fontGray {
+    margin-bottom:0.35rem;
+    font-size:0.65rem;
+    color:#3a3c4c;
+}
+.ppg_menber {
+    background:#fff;
+    height:3.55rem;
+    box-shadow:0 1px 1px 0 rgba(0, 0, 0, 0.10);
+    margin-top:0.25rem;
+    position:relative;
+}
