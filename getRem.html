@@ -47,10 +47,13 @@
         e('.text').addEventListener('blur',function(event){
             var self =event.target
              va = self.value
-             var se = ab(va)
-            console.log(self.value);
-
-
+             if (va.includes('<view')) {
+                 var ca = va.replace(/<view/g, '<div')
+                 var se = ca.replace(/<\/view>/g, '</div>')
+             }else {
+                  var se = ab(va)
+             }
+            
              e('.show').innerText = se
 
 
