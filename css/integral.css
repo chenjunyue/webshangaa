@@ -1,0 +1,154 @@
+html {
+    font-size: 20px;
+}
+
+body {
+    font-size: 0.8rem;
+    color: #3A3C4C;
+    background-color: #f7f7f7;
+}
+
+.yb-balance {
+    height: 2.5rem;
+    padding: 0rem 0.55rem;
+    line-height: 2.5rem;
+    margin-bottom: 0.25rem;
+    background: #FFFFFF;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.10);
+}
+
+.yb-balance_title {
+    font-size: 0.8rem;
+    color: #3A3C4C;
+    width: 100%;
+    display: inline-block;
+}
+
+.yb-balance_num {
+    color: #2A2A2A;
+    display: inline-block;
+}
+
+.yb-balance_pay {
+    color: #FF5556;
+    float: right;
+}
+
+.yb-balance_list {
+    background: #FFFFFF;
+}
+
+.yb-balance_item {
+    height: 3.45rem;
+    border-bottom: 1px solid #E8E8E8;
+    position: relative;
+}
+
+.arrows::before {
+    content: " ";
+    display: inline-block;
+    height: 0.4rem;
+    width: 0.4rem;
+    border-width: 2px 2px 0 0;
+    border-color: #bbb;
+    border-style: solid;
+    position: absolute;
+    top: 48%;
+    transform: rotate(45deg) translateY(-50%);
+    right: 0.8rem;
+}
+
+.yb-balance_item1 {
+    position: relative;
+}
+
+.yb-balance_item_img {
+    float: left;
+    width: 2.05rem;
+    height: 2.05rem;
+    margin: 0.7rem 0.85rem;
+}
+
+.yb-balance_item_typ {
+    padding-top: 0.7rem;
+    font-size: 0.8rem;
+    color: #3A3C4C;
+}
+
+.yb-balance_item_time {
+    margin-bottom: 0.7rem;
+    font-size: 0.65rem;
+    color: #666666;
+}
+
+.yb-balance_item_money {
+    position: absolute;
+    right: 0.75rem;
+    top: 0;
+    line-height: 3.45rem;
+}
+
+
+/*余额页面用weui写。*/
+
+.page2 .yb-balance_hd {
+    margin-top: 0px;
+}
+
+.yb-balance_hd .weui-cell__hd {
+    font-size: 0.8rem;
+    color: #3A3C4C;
+}
+
+.yb-balance_hd .weui-cell__hd span {
+    color: #2A2A2A;
+}
+
+.yb-balance_hd .weui-cell__ft a {
+    color: #FF5556;
+}
+
+.yb-balance_cell_img {
+    width: 2.05rem;
+    height: 2.05rem;
+    margin-right: 1.1rem;
+}
+
+.yb-balance_cells {
+    margin-top: 0.3rem;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.10);
+}
+
+.yb-balance_cells::before {
+    border-top: 0px solid;
+}
+
+.yb-balance_cells::after {
+    border-bottom: 0px solid;
+}
+
+.yb-balance_cell:before {
+    left: 0px;
+}
+
+.yb-balance_cell_title {
+    font-size: 0.8rem;
+    color: #3A3C4C;
+}
+
+.yb-balance_cell_time {
+    font-size: 0.65rem;
+    color: #666666;
+    margin-bottom: 1px;
+}
+
+.yb-balance_cell_num {
+    font-size: 0.8rem;
+    color: #3A3C4C;
+    padding-right: 20px !important;
+}
+
+.yb-balance_cells .weui-cell_access .weui-cell__ft:after {
+    height: 8px;
+    width: 8px;
+}

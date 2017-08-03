@@ -1,0 +1,192 @@
+html {
+    font-size: 20px;
+}
+
+.img {
+    border: none;
+}
+
+body {
+    font-size: 0.8rem;
+    color: #3A3C4C;
+    background-color: #f7f7f7;
+}
+
+.page {
+    font-size: 0.8rem;
+    color: #3A3C4C;
+    background-color: #f7f7f7;
+    display: none
+}
+
+.weui-cells {
+    margin-top: 0;
+}
+
+.weui-cells::after {
+    border-bottom: 0.025rem solid transparent;
+}
+
+.weui-cells::before {
+    border-top: 0.025rem solid transparent;
+}
+
+.weui-cell::before {
+    left: 1.4rem;
+}
+
+.weui-cell__ft_in-access::after {
+    height: 0.45rem;
+    width: 0.45rem;
+    right: 0.55rem;
+}
+
+.weui-cell__ft_in-access {
+    position: static;
+}
+
+.yb-setList {
+    padding: 0.4rem 1.4rem;
+    margin-top: 0rem;
+    height: 2.5rem;
+    box-sizing: border-box;
+}
+
+.yb-setList .weui-cell__ft:after {
+    height: 8px;
+    width: 8px;
+    right: -12px;
+}
+
+.arrows::before {
+    content: " ";
+    display: inline-block;
+    height: 0.4rem;
+    width: 0.4rem;
+    border-width: 2px 2px 0 0;
+    border-color: #bbb;
+    border-style: solid;
+    position: absolute;
+    top: 50%;
+    transform: rotate(45deg) translateY(-50%);
+    right: 0.95rem;
+}
+
+.yb-setImg {
+    height: 3.55rem;
+}
+
+::-moz-placeholder {
+    color: #BBBBBB;
+}
+
+:-ms-input-placeholder {
+    color: #BBBBBB;
+}
+
+::-webkit-input-placeholder {
+    color: #BBBBBB;
+}
+
+.yb-set_head {
+    width: 2.75rem;
+    height: 2.75rem;
+    margin-top: 0.4rem;
+}
+
+.yb-input_typ {
+    font-size: 0.8rem;
+    color: #BBBBBB;
+}
+
+.yb-line_h {
+    height: 1.7rem;
+    min-height: 1.7rem;
+    line-height: 1.7rem;
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: 5px;
+}
+
+.yb-text_w {
+    width: 2.55rem;
+    margin-right: 0.75rem;
+    text-align-last: justify;
+    font-size: 0.8rem;
+    color: #3A3C4C;
+    /*font-size:0.8rem;
+color: #3A3C4C;*/
+}
+
+.yb-boxsho {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.10);
+    margin-bottom: 0.25rem;
+    box-sizing: border-box;
+    border-top: 0rem solid transparent;
+    border-bottom: 0rem solid transparent;
+    background-color: #fff;
+}
+
+.yb-button_ft {
+    padding: 0 1.15rem;
+    margin-top: 0.5rem;
+}
+
+.yb-but_fd {
+    color: #3A3C4C;
+    background: #FFFFFF;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.10);
+    border-radius: 8px;
+    font-size: 0.8rem;
+    line-height: 2.25rem;
+}
+
+
+/*头像设置窗宽的CSS*/
+
+.page-headerSet {
+    display: none;
+}
+
+.yb-headImg img {
+    width: 100%;
+}
+
+.yb-headImg image {
+    height: 100%;
+    width: 100%;
+}
+
+
+/*密码设置的页面*/
+
+.yb-setList_pr {
+    height: 2.8rem;
+}
+
+.yb-input_typ {
+    font-size: 0.8rem;
+    color: #BBBBBB;
+}
+
+.yb-text_one {
+    width: 3.25rem !important;
+}
+
+.yb-text_pr {
+    width: 2.4rem;
+    margin-right: 0.75rem;
+    font-size: 0.8rem;
+    color: #3A3C4C;
+    /*font-size:0.8rem;
+color: #3A3C4C;*/
+}
+
+.yb-boxsho {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.10);
+    margin-bottom: 0.25rem;
+    box-sizing: border-box;
+    border-top: 0rem solid transparent;
+    border-bottom: 0rem solid transparent;
+    background-color: #fff;
+}
